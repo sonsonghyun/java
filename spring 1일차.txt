@@ -1,0 +1,48 @@
+라이브러리 살펴보기
+핵심 라이브러리
+
+스프링 부트 라이브러리
+spring-boot-starter-web
+>> spring-boot-starter-tomcat: 톰캣(웹서버)
+>> spring-webmvc : 스프링 웹 mvc
+
+spring-boot-starter-thymeleaf : 타임리프 템플릿 엔진(view)
+spring-boot-starter(공통): 스프링부트+스프링코어+로깅
+	spring boot
+		spring-core
+	spring-boot-starter-logging(로깅 표준)
+		logback, slf4j
+
+테스트 라이브러리
+spring-boot-starter-test
+	junit: 테스트 프레임워크
+	mockito: 목 라이브러리
+	assert: 테스트 코드를 좀 더 편하게 작성하게 도와주는 라이브러리
+	spring-test: 스프링 통합 테스트지원
+
+Template Engines
+1. FreeMarker
+2. Groovy
+3. Thymeleaf
+4. Mustache
+
+cmd에서 java 파일 실행 방법
+java -jar 사용
+
+전체적인 방식 mvc >> django랑 큰 차이 없음
+라이브러리 선언 방식하고 안에 상세 문법이 다를뿐이지 
+나머지는 얼추 비슷
+
+
+
+
+
+
+
+
+
+
+
+
+
+
