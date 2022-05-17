@@ -1,0 +1,63 @@
+30강 변수의 스코프와 static 
+
+스코프 >> c언어에서 전역변수 / 지역변수 생각하면 됨 
+
+모든 클래스는 인스턴스화 하지 않은 채로 사용할 수 없다
+
+main에 static 이라는 키워드가 붙어있는데 
+지금까지 main 메서드를 정의할 때 new를 사용하지 않아도 실행된 이유
+static 이라는 키워드를 붙여주면 클래스를 인스턴스화 하지 않아도 static한 메서드나
+static 한 변수를 사용할 수 있다.
+
+static한 필드는 인스턴스를 생성할 때 만들어지는 것이 아니다. 
+값을 저장할 수 잇는 공간도 하나밖에 없다
+즉, 값을 공유한다 
+
+31강 열거형 
+열거형은 서로 관련 있는 상수들을 모아서 집합으로 정의한 것이다
+열거형이 등장하기 전에는 public 과 static final을 이용해 상수를 열거형 대신 사용했다
+
+EX)
+package javaStudy;
+
+public class EnumExam {
+
+	public static final String MALE="MALE";
+	public static final String FEMALE="FEMALE";
+	
+	public static void main(String[] args) {	
+	}
+}
+
+static 하게 선언하면 객체 생성 없이 사용이 가능
+final은 상수를 선언할 때 사용하는 키워드 
+
+열거형 사용 방법
+enum 열거형 이름 { 값1, 값2 }
+
+Enum 이름은 클래스 명명 규칙을 따르며, 세부 항목에 이름은 모두 대문자를 사용한다
+
+자바의 자료형은 크게 
+기본자료형 ( int, float, char...)
+참조자료형 (class,...) 으로 나뉜다
+enum은 참조 자료형에 속하며 enum형을 가진 형태의 클래스이다
+
+enum은 열거형이라는 아에 다른 데이터 타입이다
+상수로 쓰던 것의 부족한 점을 해결하기 위해 만들어진 것이 enum이라고 이해하면 좋다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
