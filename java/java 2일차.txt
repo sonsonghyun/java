@@ -310,7 +310,9 @@ c2.number =1111;
 package javaStudy;
 
 public class MyClass{
-	public 리턴형 메서드명 (매개변수들) {실행될 코드}
+	public 리턴형 메서드명 (매개변수들) {
+	실행될 코드
+	}
 
 }
 
