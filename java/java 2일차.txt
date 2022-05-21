@@ -43,12 +43,12 @@ public class WhileExam{
 ex)
 do {
 	반복할 문장
-} while ()
+} while ( )
 
 ex2)
 import java.util.Scanner;
 public class DowhileExam{
-	public static void main(String[] args) {
+	public static void main(String[ ] args) {
 		int value = 0;
 		Scanner scan = new Scanner(System.in);
 		
@@ -92,12 +92,12 @@ for문의 경우 다음 for문으로
 
 배열 선언)
 자료형 (int) 다음에 배열을 나타내는 대괄호를 넣고 배열명을 array1로 선언한다
-
+***
 배열을 생성할 때 반드시 new 라는 키워드를 사용해야 한다
 ex)
 public class ArrayExam{
 	public static void main(String[] args){
-		int[] array1  = new int[100];
+		int[ ] array1  = new int[100];
 	}
 }
 
@@ -114,7 +114,7 @@ ex) int[ ] array1 = new int[100];
 그후에 >> array1[0] = 50; / array1[50]  = 100;
 
 배열 선언 방법2
-ex) int[] array2 = new int[] {1,2,3,4};
+ex) int[ ] array2 = new int[ ] {1,2,3,4};
 
 배열은 기본 자료형이 아니라 참조형 >> 뒤에서 설명할 것 
 
@@ -128,7 +128,7 @@ ex) for( int i=0; i< iarray.length; 증감식)
 배열 + 반복문 ex)
 public class ArrayWithFor {
 	public static void main(String[] args) {
-		int[] iarray = new int[100];
+		int[ ] iarray = new int[100];
 
 		for ( int i=0; i < iarray.length; i++) {
 			iarray[i] = i+1;   // 인덱스 시작이 0 이므로 i+1해서 1부터 
@@ -269,7 +269,16 @@ ex) 학교에서 공부하는 학생은 어떤 필드를 가질까??
 필드는 코드에서 변수로 표현됩니다 따라서 변수를 선언하는 것과 비슷하게 
 '자료형 필드명'으로 선언할 수 있다
 
-ex) 
+ex1)
+package javaStudy
+
+public class Car{
+	//(자료형) 타입 필드명
+	String name;
+	int number;
+}
+
+ex2) 
 package javaStudy
 
 public class CarExam{
@@ -363,41 +372,3 @@ str = str. concat(" world") 이런식으로 바꿔줘야 함
 객체지향 프로그램은 모든 기능을 스스로 구현하기 보다 어떤 객체가 어떤 일을 잘하는지 파악해
 해당 객체를 적절하게 사용하는 것이 핵심이다. 즉, 객체를 잘 사용한다는 것은 그 객체가 가진
 기능을 잘 사용하는 것이므로, 메서드를 잘 사용하는 것이 객체 지향 프로그램의 핵심임
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
