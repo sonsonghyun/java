@@ -51,3 +51,72 @@ public class Main{
 		System.out.println(a * b);
 	}
 }
+
+10869번 
+package first;
+
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.println(a + b);
+		System.out.println(a - b);
+		System.out.println(a * b);
+		System.out.println(a / b);
+		System.out.println(a % b);
+	}
+}
+
+Scanner 객체명 = new Scanner(System.in);
+>> 입력을 하기 위해 생성한 객체
+import java.util.*;
+>> Scanner를 사용하기 위해 패기지 import
+객체명.nextLine > 문자열을
+객체명.nextInt > 정수를
+객체명.nextDouble > 더블형을 입력 받는다 
+
+10430번
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a, b,c;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		int x,y,z,t;
+		x = (a+b)%c;
+		y = ((a%c)+(b%c))%c;
+		z = (a*b)%c;
+		t = ((a%c)*(b%c))%c;
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(t);
+	}
+}
+
+2258번 
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a,b=0;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println(a+b);
+	}
+}
+
+
+
+
+
+
+
+
+
+
