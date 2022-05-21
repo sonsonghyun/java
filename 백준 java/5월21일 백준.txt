@@ -1,0 +1,53 @@
+2557번
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+
+
+1000번
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.println(a + b);
+	}
+}
+
+
+1001번
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.println(a - b);
+	}
+}
+
+10718번
+public class Main2 {
+	public static void main(String[] args) {
+		System.out.println("강한친구 대한육군");
+		System.out.println("강한친구 대한육군");
+	}
+}
+
+10998번
+import java.util.*;
+public class Main{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.println(a * b);
+	}
+}
