@@ -1,0 +1,56 @@
+3강 의존성 설치
+
+Spring Boot Developer tools
+>> 개발 편리를 위해
+
+Lombok
+>> getter shetter 나 생성자를 만드는게 번거로운데 
+이를 자동으로 생성해주는 lib
+
+Spring Data JPA 
+>> 데이터베이스를 JPA를 통해서 만들껀데 이를 통해서 ORM을 만들 수 있다
+
+Database는 MySQL
+
+Spring Security 
+>> 보안기능 lib
+
+Spring Web
+>> Annotation >> java에서는 주석기능인데 소스코드에 추가하면 
+단순 주석의 기능을 하는 것이 아니라 특별한 기능을 사용할 수 있다
+
+Annotation은 클래스와 메서드에 추가하여 다양한 기능을 부여하는 역할을 한다
+이를 통하여 코드량이 감소하고 유지보수하기 쉬우며, 생산성이 증가된다
+
+내장형 컨테이너로 톰캣을 기본탑재하고 있다
+
+4강 Controller 만들어서 실행
+
+스프링 > IOC > 제어의 역전
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
